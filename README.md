@@ -1,35 +1,36 @@
 # Reativa
 
-**Laboratório de Recuperação e Atualização Tecnológica**
+**Laboratory for Technology Recovery and Modernization**
 
-Proposta de laboratório em formação, coordenada por Elói Rotava, docente da
-Universidade Federal de São Paulo (Unifesp).
+A laboratory initiative led by Elói Rotava, a faculty member at the Federal
+University of São Paulo (Unifesp), Brazil.
 
-O Reativa investiga e aplica agentes de programação à recuperação e modernização
-de equipamentos e sistemas legados. A proposta combina bancadas de baixo custo,
-componentes reaproveitados e acesso remoto para permitir que operadores sem
-especialização em firmware deleguem implementação, compilação e recuperação de
-falhas, mantendo a definição dos objetivos e a aceitação dos resultados.
+Reativa investigates and applies coding agents to recover and modernize legacy
+devices and systems. The approach combines low-cost benches, repurposed
+hardware, and remote access so that technically capable operators without
+specialist firmware knowledge can delegate implementation, compilation,
+deployment, and recovery from failed experiments. Operators define the goals
+and assess the resulting functionality.
 
-## Frentes de trabalho
+## Research and development areas
 
-- Atualização de drivers e adaptação a sistemas operacionais atuais.
-- Recuperação e modernização de firmware legado.
-- Compatibilidade com componentes binários e interfaces abandonadas.
-- Bancadas acessíveis com observação, implantação e recuperação remotas.
-- Documentação de experiências, resultados e limites das recuperações.
+- Updating legacy drivers and adapting them to current operating systems.
+- Recovering and modernizing unsupported firmware.
+- Maintaining compatibility with vendor binaries and abandoned interfaces.
+- Building accessible benches with remote observation, deployment, and recovery.
+- Documenting practical experience, recovered functionality, and limitations.
 
-## Experiência inicial
+## Initial experience
 
-A proposta nasce de trabalhos com SSV6051, Netgear R7000, Tenda AC6,
-repetidores MT7628/eCos e armazenamento NAND Amlogic. Um manuscrito em
-preparação reúne essas experiências e a evolução da bancada.
+The initiative builds on work involving SSV6051 wireless devices, the Netgear
+R7000, the Tenda AC6, MT7628/eCos repeaters, and Amlogic NAND storage. A manuscript
+in preparation reports these experiences and the evolution of the bench.
 
-## Estado
+## Status
 
-Laboratório em estruturação. A definição da equipe, da infraestrutura e de
-propostas de financiamento está em desenvolvimento. Esta apresentação não
-pressupõe reconhecimento institucional formal nem financiamento já concedido.
+The laboratory is being established. Team development, infrastructure planning,
+and funding proposals are in progress. This description does not imply formal
+institutional recognition or funding already awarded.
 
-Materiais técnicos serão selecionados conforme confidencialidade e direitos
-de redistribuição. Repositório inicial de organização da proposta, mantido privado durante a preparação.
+Technical materials will be selected according to confidentiality and
+redistribution rights. This initial repository remains private during preparation.
