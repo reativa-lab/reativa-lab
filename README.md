@@ -16,6 +16,8 @@ and assess the resulting functionality.
 
 - Updating legacy drivers and adapting them to current operating systems.
 - Recovering and modernizing unsupported firmware.
+- Restoring legacy software through emulation and reproducible runtime environments.
+- Recovering scientific data from abandoned or proprietary file formats.
 - Maintaining compatibility with vendor binaries and abandoned interfaces.
 - Building accessible benches with remote observation, deployment, and recovery.
 - Documenting practical experience, recovered functionality, and limitations.
@@ -23,7 +25,9 @@ and assess the resulting functionality.
 ## Initial experience
 
 The initiative builds on work involving SSV6051 wireless devices, the Netgear
-R7000, the Tenda AC6, MT7628/eCos repeaters, and Amlogic NAND storage. A manuscript
+R7000, the Tenda AC6, MT7628/eCos repeaters, and Amlogic NAND storage.
+Software and data-format work also includes Epi Info 6 under FreeDOS/QEMU,
+Bruker OPUS spectra, and Shimadzu LCD/TLM chromatography data. A manuscript
 in preparation reports these experiences and the evolution of the bench.
 
 ## Status
@@ -34,3 +38,9 @@ institutional recognition or funding already awarded.
 
 Technical materials will be selected according to confidentiality and
 redistribution rights. This initial repository remains private during preparation.
+
+## Article companion
+
+The curated hardware/firmware case material is organized in
+[legacy-firmware-study](https://github.com/reativa-lab/legacy-firmware-study).
+The scope of that article is narrower than the laboratory's hardware and software remit.
