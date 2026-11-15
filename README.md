@@ -19,6 +19,9 @@ and assess the resulting functionality.
 - Restoring legacy software through emulation and reproducible runtime environments.
 - Recovering scientific data from abandoned or proprietary file formats.
 - Maintaining compatibility with vendor binaries and abandoned interfaces.
+- Wrapping obsolete binary components (codecs, vendor libraries, driver interfaces)
+  so that the original, unmodified binaries run on current systems and other
+  processor architectures, with explicit, independently verified fidelity.
 - Building accessible benches with remote observation, deployment, and recovery.
 - Documenting practical experience, recovered functionality, and limitations.
 
@@ -29,6 +32,30 @@ R7000, the Tenda AC6, MT7628/eCos repeaters, and Amlogic NAND storage.
 Software and data-format work also includes Epi Info 6 under FreeDOS/QEMU,
 Bruker OPUS spectra, and Shimadzu LCD/TLM chromatography data. A manuscript
 in preparation reports these experiences and the evolution of the bench.
+
+Binary-component work covers a 1990s Windows video codec (Intel Indeo, 32- and
+16-bit versions and two later generations) wrapped to run unmodified on ARM
+Linux with output verified frame by frame, and a USB device vendor's Windows library that
+operates real hardware on ARM systems, alone and under its original graphical
+utility. Whole Windows programs using serial ports have also been run against
+real adapters. A benchmark of 15 coding-agent configurations, three runs each,
+measured how far agents produce such wrappers unaided when acceptance is
+checked independently. A second manuscript in preparation reports this work.
+
+## Working principles
+
+- Work only with legitimate copies of software and equipment that the
+  laboratory or its partners own and may use, and keep the licenses on record.
+- Prefer the least invasive approach that works: existing compatibility layers,
+  emulation and wrapping first, black-box observation next; disassembly only
+  where interoperability requires it, with the reason recorded.
+- Publish only what is ours: wrappers, methods, measurements and hashes. Vendor
+  binaries and partners' data are never placed in public repositories.
+- Agree on authorization and publication with equipment and data owners, and
+  involve the university's technology-transfer and legal offices, before work
+  on a partner's case begins.
+- Accept results only against an oracle independent of the agent, including
+  test material the agent has not seen.
 
 ## Status
 
